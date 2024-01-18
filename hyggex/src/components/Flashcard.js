@@ -20,17 +20,17 @@ const Flashcard = () => {
         <div className='flex flex-wrap h-[30px] w-[487px]'>
             <span className='flex flex-wrap font-inter text-[#696671] text-[18px] font-medium'>
             <img className='h-[21.25px] w-[20px] mx-[2.5px] my-[3.75px]'src={home}  alt="H" />
-            <img className='h-[24px] w-[24px] my-[3px] 'src={arrow}  alt=">" />
-            Flashcard
+            <img className='h-[12px] w-[7.41px] my-[9px] mx-[8.59px]  'src={arrow}  alt=">" />
+            <p className='mt-[2px]'>Flashcard</p>
             </span>
             <span className='flex flex-wrap font-inter text-[#696671] text-[18px] font-medium'>
             <span className='flex flex-wrap '>
-            <img className='h-[24px] w-[24px] my-[3px] 'src={arrow}  alt=">" />
-            Mathematics
+            <img className='h-[12px] w-[7.41px] my-[9px] mx-[8.59px] 'src={arrow}  alt=">" />
+            <p className='mt-[2px]'>Mathematics </p>
             </span>
             <span className='flex flex-wrap font-inter text-[#06286E] text-[18px] font-semibold'>
-            <img  className='h-[24px] w-[24px] my-[3px]   'src={arrow}  alt=">" />
-            Relation and Function
+            <img  className='h-[12px] w-[7.41px] my-[9px] mx-[8.59px] 'src={arrow}  alt=">" />
+            <p className='mt-[2px]'>Relation and Function </p>
             </span>
             </span>
         </div>
@@ -39,7 +39,7 @@ const Flashcard = () => {
         </div>
         <div className='flex justify-center mt-[56px]  '>
             <ul className='flex flex-wrap gap-[40px] font-normal font-inter h-[29px]'>
-                <li className='flex justify-center font-bold font-inter border-b-2 border-[#06286E] w-[82px] h-[32px]  text-[#06286E] text-[20px]'>Study</li>
+                <li className='flex justify-center font-bold font-inter border-b-2 border-[#06286E] w-[82px] h-[32px] rounded-[1px]  text-[#06286E] text-[20px]'>Study</li>
                 <li className='flex justify-center font-medium font-inter w-[82px] h-[32px]  text-[#696671] text-[20px] '>Quiz</li>
                 <li className='flex justify-center font-medium font-inter w-[82px] h-[32px]  text-[#696671] text-[20px]' >Test</li>
                 <li className='flex justify-center font-medium font-inter w-[82px] h-[32px] text-[#696671] text-[20px]' >Game</li>
@@ -61,10 +61,10 @@ const Flashcard = () => {
              <div className='flex justify-center  '>
                 <div className='flex flex-wrap justify-between mt-[32px] w-[612px] h-[60px] gap-[140px]'>
                     <img className='h-[30.02px] w-[30px] my-[15px] ' src={reload}  alt="readout" />
-                    <div className='flex flex-wrap w-[272px] gap-[43px]'>
-                        <img src={backwards}  alt="<-" />
-                        <span className='flex justify-center font-bold font-inter w-[66px] h-[29.05px] my-[21.5px] text-[#202B37] text-[24px]'>{current}/{all}</span>
-                        <img src={forwards}  alt="->" />
+                    <div className='flex flex-wrap w-[272px] h-[60px] gap-[43.9px] mb-[4px]'>
+                        <img className='h-[60px]' src={backwards}  alt="<-" />
+                        <span className='flex justify-center font-bold font-inter w-[66px] h-[29.05px] my-[15.5px] text-[#202B37] text-[24px]'>{current}/{all}</span>
+                        <img className='h-[60px]' src={forwards}  alt="->" />
                     </div>
                     <img className='h-[30px] w-[30px] my-[15px] ' src={expand}  alt="expand" />
                 </div>
